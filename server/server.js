@@ -22,7 +22,7 @@ app.get('/api/auth', auth,(req,res)=>{
     id:req.user._id,
     email:req.user.email,
     name: req.user.name,
-    lastnam:req.user.lastname
+    lastname:req.user.lastname
   })
 })
 

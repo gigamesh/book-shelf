@@ -7,7 +7,7 @@ class App extends Component {
   componentWillMount(){
     axios.get('/api/getBook?id=5aee9177450666fa10178573')
     .then(response => {
-      console.log(response.data);
+      // console.log(response.data);
     })
   }
 
